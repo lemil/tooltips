@@ -1,0 +1,48 @@
+version: '3'
+services:
+    php7:
+      hostname: php7
+      build:
+        context: ./etc/docker
+        dockerfile: dockerfile_php_7
+      environment:
+        - ENVIRONMENT=development
+      volumes:
+        - '../env/www:/var/www/html'
+        - '../env/logs:/var/log/apache2'
+        - '../env/ci-logs:/var/www/html/application/logs'
+        - '../env/ci-cache:/var/www/html/application/cache'
+        - './etc/php:/usr/local/etc/php'
+      ports:
+        - '80:80'
+      links:
+        - db
+
+    wp:
+      image: wordpress
+      ports:
+        - '8080:80'
+      environment:
+        - WORDPRESS_DB_HOST=db
+        - WORDPRESS_DB_USER=root
+        - WORDPRESS_DB_PASSWORD=123456
+        - WORDPRESS_TABLE_PREFIX=wp
+        - WORDPRESS_DB_NAME=wp
+      volumes:
+        - '../env/wp:/var/www/html'
+      links:
+        - db
+
+    db:
+      image: mysql:8.0.13
+      command: '--default-authentication-plugin=mysql_native_password'
+      ports:
+        - '3307:3306'
+        - '33070:33060'
+      environment:
+        - MYSQL_ROOT_PASSWORD=123456
+        - MYSQL_DATABASE=tthelp
+      volumes:
+        - './etc/mysql/mysql.cnf:/etc/mysql/conf.d/mysql.cnf'
+        - '../env/mysql/data:/var/lib/mysql'
+        - '../env/mysql:/docker-entrypoint-initdb.d'

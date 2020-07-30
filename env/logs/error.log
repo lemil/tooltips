@@ -1,0 +1,124 @@
+[Tue Jul 30 16:46:08.271501 2019] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.3. Set the 'ServerName' directive globally to suppress this message
+[Wed Jul 31 02:05:17.431763 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.0.16 configured -- resuming normal operations
+[Wed Jul 31 02:05:17.431812 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Jul 31 11:05:28.711560 2019] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.3. Set the 'ServerName' directive globally to suppress this message
+[Wed Jul 31 22:50:29.203990 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.0.16 configured -- resuming normal operations
+[Wed Jul 31 22:50:29.204062 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Aug 08 13:23:10.501233 2019] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.3. Set the 'ServerName' directive globally to suppress this message
+[Thu Aug 08 13:28:56.538338 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.0.16 configured -- resuming normal operations
+[Thu Aug 08 13:28:56.538392 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Aug 08 14:58:47.672569 2019] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.3. Set the 'ServerName' directive globally to suppress this message
+[Thu Aug 08 22:22:41.836236 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.0.16 configured -- resuming normal operations
+[Thu Aug 08 22:22:41.836291 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Aug 09 11:53:30.901793 2019] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Aug 09 11:53:34.379753 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.0.16 configured -- resuming normal operations
+[Fri Aug 09 11:53:34.379831 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Aug 09 12:37:25.599570 2019] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Aug 09 12:53:54.011319 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.0.16 configured -- resuming normal operations
+[Fri Aug 09 12:53:54.011442 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Aug 09 12:55:08.962615 2019] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Aug 09 12:55:44.319800 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.0.16 configured -- resuming normal operations
+[Fri Aug 09 12:55:44.319933 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Aug 10 16:57:16.740502 2019] [:error] [pid 19] [client 172.22.0.1:33714] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 262144 bytes) in /var/www/html/system/core/BasicModel.php on line 16, referer: http://localhost/menu/sub/data
+[Sat Aug 10 16:57:16.740694 2019] [:error] [pid 19] [client 172.22.0.1:33714] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 262144 bytes) in /var/www/html/system/core/Common.php on line 687, referer: http://localhost/menu/sub/data
+[Sat Aug 10 16:57:16.740905 2019] [:error] [pid 19] [client 172.22.0.1:33714] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0, referer: http://localhost/menu/sub/data
+[Sat Aug 10 16:57:16.740993 2019] [:error] [pid 19] [client 172.22.0.1:33714] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0, referer: http://localhost/menu/sub/data
+[Sat Aug 10 16:57:49.480372 2019] [:error] [pid 23] [client 172.22.0.1:33722] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 262144 bytes) in /var/www/html/system/core/BasicModel.php on line 16, referer: http://localhost/menu/sub/data
+[Sat Aug 10 16:57:49.480572 2019] [:error] [pid 23] [client 172.22.0.1:33722] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 262144 bytes) in /var/www/html/system/core/Common.php on line 687, referer: http://localhost/menu/sub/data
+[Sat Aug 10 16:57:49.480782 2019] [:error] [pid 23] [client 172.22.0.1:33722] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0, referer: http://localhost/menu/sub/data
+[Sat Aug 10 16:57:49.481190 2019] [:error] [pid 23] [client 172.22.0.1:33722] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0, referer: http://localhost/menu/sub/data
+[Sat Aug 10 17:01:23.990277 2019] [:error] [pid 25] [client 172.22.0.1:33736] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 262144 bytes) in /var/www/html/system/core/BasicModel.php on line 16, referer: http://localhost/menu/sub/data
+[Sat Aug 10 17:01:23.990435 2019] [:error] [pid 25] [client 172.22.0.1:33736] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 262144 bytes) in /var/www/html/system/core/Common.php on line 687, referer: http://localhost/menu/sub/data
+[Sat Aug 10 17:01:23.990581 2019] [:error] [pid 25] [client 172.22.0.1:33736] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0, referer: http://localhost/menu/sub/data
+[Sat Aug 10 17:01:23.990704 2019] [:error] [pid 25] [client 172.22.0.1:33736] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0, referer: http://localhost/menu/sub/data
+[Sat Aug 10 17:01:28.009094 2019] [:error] [pid 25] [client 172.22.0.1:33736] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 262144 bytes) in /var/www/html/system/core/BasicModel.php on line 16
+[Sat Aug 10 17:01:28.009274 2019] [:error] [pid 25] [client 172.22.0.1:33736] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 262144 bytes) in /var/www/html/system/core/Common.php on line 687
+[Sat Aug 10 17:01:28.009446 2019] [:error] [pid 25] [client 172.22.0.1:33736] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[Sat Aug 10 17:01:28.009600 2019] [:error] [pid 25] [client 172.22.0.1:33736] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[Sat Aug 10 17:02:26.686744 2019] [:error] [pid 24] [client 172.22.0.1:33762] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 262144 bytes) in /var/www/html/system/core/BasicModel.php on line 16
+[Sat Aug 10 17:02:26.686961 2019] [:error] [pid 24] [client 172.22.0.1:33762] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 262144 bytes) in /var/www/html/system/core/Common.php on line 687
+[Sat Aug 10 17:02:26.687232 2019] [:error] [pid 24] [client 172.22.0.1:33762] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[Sat Aug 10 17:02:26.687382 2019] [:error] [pid 24] [client 172.22.0.1:33762] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[Sat Aug 10 22:38:17.348332 2019] [:error] [pid 16] [client 172.22.0.1:33958] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 262144 bytes) in /var/www/html/system/core/BasicModel.php on line 16
+[Sat Aug 10 22:38:17.348508 2019] [:error] [pid 16] [client 172.22.0.1:33958] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 262144 bytes) in /var/www/html/system/core/Common.php on line 687
+[Sat Aug 10 22:38:17.348728 2019] [:error] [pid 16] [client 172.22.0.1:33958] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[Sat Aug 10 22:38:17.348873 2019] [:error] [pid 16] [client 172.22.0.1:33958] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[Sat Aug 10 22:39:47.422591 2019] [:error] [pid 23] [client 172.22.0.1:33988] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /var/www/html/system/core/BasicModel.php on line 16
+[Sat Aug 10 22:39:47.422831 2019] [:error] [pid 23] [client 172.22.0.1:33988] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /var/www/html/system/core/Common.php on line 687
+[Sat Aug 10 22:39:47.423140 2019] [:error] [pid 23] [client 172.22.0.1:33988] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[Sat Aug 10 22:39:47.423323 2019] [:error] [pid 23] [client 172.22.0.1:33988] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[Sat Aug 10 22:40:33.472216 2019] [:error] [pid 25] [client 172.22.0.1:34004] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /var/www/html/system/core/BasicModel.php on line 16
+[Sat Aug 10 22:40:33.472419 2019] [:error] [pid 25] [client 172.22.0.1:34004] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /var/www/html/system/core/Common.php on line 687
+[Sat Aug 10 22:40:33.472696 2019] [:error] [pid 25] [client 172.22.0.1:34004] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[Sat Aug 10 22:40:33.472873 2019] [:error] [pid 25] [client 172.22.0.1:34004] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[Sat Aug 10 22:41:32.940041 2019] [:error] [pid 21] [client 172.22.0.1:34024] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /var/www/html/system/core/BasicModel.php on line 16
+[Sat Aug 10 22:41:32.940251 2019] [:error] [pid 21] [client 172.22.0.1:34024] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /var/www/html/system/core/Common.php on line 687
+[Sat Aug 10 22:41:32.940444 2019] [:error] [pid 21] [client 172.22.0.1:34024] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[Sat Aug 10 22:41:32.940619 2019] [:error] [pid 21] [client 172.22.0.1:34024] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[Sat Aug 10 22:41:40.271267 2019] [:error] [pid 24] [client 172.22.0.1:34026] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /var/www/html/system/core/BasicModel.php on line 16
+[Sat Aug 10 22:41:40.271679 2019] [:error] [pid 24] [client 172.22.0.1:34026] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /var/www/html/system/core/Common.php on line 687
+[Sat Aug 10 22:41:40.272601 2019] [:error] [pid 24] [client 172.22.0.1:34026] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[Sat Aug 10 22:41:40.273549 2019] [:error] [pid 24] [client 172.22.0.1:34026] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[Sat Aug 10 22:42:31.922473 2019] [:error] [pid 17] [client 172.22.0.1:34040] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /var/www/html/system/core/BasicModel.php on line 16
+[Sat Aug 10 22:42:31.922666 2019] [:error] [pid 17] [client 172.22.0.1:34040] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /var/www/html/system/core/Common.php on line 687
+[Sat Aug 10 22:42:31.922830 2019] [:error] [pid 17] [client 172.22.0.1:34040] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[Sat Aug 10 22:42:31.922980 2019] [:error] [pid 17] [client 172.22.0.1:34040] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[Sat Aug 10 22:42:54.840966 2019] [:error] [pid 20] [client 172.22.0.1:34058] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /var/www/html/system/core/BasicModel.php on line 16
+[Sat Aug 10 22:42:54.841155 2019] [:error] [pid 20] [client 172.22.0.1:34058] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /var/www/html/system/core/Common.php on line 687
+[Sat Aug 10 22:42:54.841327 2019] [:error] [pid 20] [client 172.22.0.1:34058] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[Sat Aug 10 22:42:54.841495 2019] [:error] [pid 20] [client 172.22.0.1:34058] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[Sat Aug 10 22:43:25.452968 2019] [:error] [pid 22] [client 172.22.0.1:34066] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /var/www/html/system/core/BasicModel.php on line 16
+[Sat Aug 10 22:43:25.453150 2019] [:error] [pid 22] [client 172.22.0.1:34066] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /var/www/html/system/core/Common.php on line 687
+[Sat Aug 10 22:43:25.453317 2019] [:error] [pid 22] [client 172.22.0.1:34066] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[Sat Aug 10 22:43:25.453458 2019] [:error] [pid 22] [client 172.22.0.1:34066] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[Sat Aug 10 22:43:37.092964 2019] [:error] [pid 18] [client 172.22.0.1:34076] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /var/www/html/system/core/BasicModel.php on line 16
+[Sat Aug 10 22:43:37.093246 2019] [:error] [pid 18] [client 172.22.0.1:34076] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /var/www/html/system/core/Common.php on line 687
+[Sat Aug 10 22:43:37.093791 2019] [:error] [pid 18] [client 172.22.0.1:34076] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[Sat Aug 10 22:43:37.094116 2019] [:error] [pid 18] [client 172.22.0.1:34076] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[Mon Aug 12 13:01:48.528929 2019] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
+[Mon Aug 12 15:33:14.974035 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.0.16 configured -- resuming normal operations
+[Mon Aug 12 15:33:14.975743 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Aug 15 15:53:51.413038 2019] [core:alert] [pid 30] [client 172.23.0.1:55652] /var/www/html/.htaccess: Invalid command 'Header', perhaps misspelled or defined by a module not included in the server configuration
+[Thu Aug 15 15:54:18.558599 2019] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.4. Set the 'ServerName' directive globally to suppress this message
+[Thu Aug 15 15:54:55.497454 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.0.16 configured -- resuming normal operations
+[Thu Aug 15 15:54:55.498030 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Aug 16 15:46:51.456550 2019] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Aug 16 17:59:09.892350 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.0.16 configured -- resuming normal operations
+[Fri Aug 16 17:59:09.893204 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Aug 16 18:52:52.827568 2019] [:error] [pid 29] [client 172.23.0.1:55452] PHP Fatal error:  Class 'PrivateWebController' not found in /var/www/html/application/controllers/Menu.php on line 4, referer: http://localhost/index.php/login/login
+[Fri Aug 16 18:52:56.481902 2019] [:error] [pid 26] [client 172.23.0.1:55454] PHP Fatal error:  Class 'PrivateWebController' not found in /var/www/html/application/controllers/Menu.php on line 4, referer: http://localhost/index.php/login/login
+[Fri Aug 16 18:53:05.195325 2019] [:error] [pid 22] [client 172.23.0.1:55462] PHP Fatal error:  Class 'PrivateWebController' not found in /var/www/html/application/controllers/Menu.php on line 4, referer: http://localhost/index.php/login/login
+[Fri Aug 16 18:53:31.981666 2019] [:error] [pid 18] [client 172.23.0.1:55468] PHP Fatal error:  Class 'PrivateWebController' not found in /var/www/html/application/controllers/Menu.php on line 4, referer: http://localhost/index.php/login/login
+[Fri Aug 16 21:09:37.468031 2019] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
+[Thu Aug 22 15:44:44.883754 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.0.16 configured -- resuming normal operations
+[Thu Aug 22 15:44:44.884179 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.24.0.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 18 20:41:16.253100 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.0.16 configured -- resuming normal operations
+[Fri Oct 18 20:41:16.253822 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Oct 23 15:04:33.831182 2019] [:error] [pid 76] [client 172.24.0.1:36908] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /var/www/html/application/models/Auth_model.php on line 18, referer: http://ttips.embluemail.com/index.php/login
+[Wed Oct 23 15:05:06.585467 2019] [:error] [pid 87] [client 172.24.0.1:36914] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /var/www/html/application/models/Auth_model.php on line 18, referer: http://ttips.embluemail.com/index.php/login
+[Wed Oct 23 15:05:26.019250 2019] [:error] [pid 81] [client 172.24.0.1:36920] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /var/www/html/application/models/Auth_model.php on line 18, referer: http://ttips.embluemail.com/index.php/login
+[Wed Oct 23 15:05:53.822169 2019] [:error] [pid 75] [client 172.24.0.1:36926] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /var/www/html/application/models/Auth_model.php on line 18, referer: http://ttips.embluemail.com/index.php/login
+[Wed Oct 23 15:06:02.432468 2019] [:error] [pid 84] [client 172.24.0.1:36930] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /var/www/html/application/models/Auth_model.php on line 18, referer: http://ttips.embluemail.com/index.php/login
+[Wed Oct 23 15:23:51.038655 2019] [:error] [pid 76] [client 172.24.0.1:36938] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /var/www/html/application/models/Auth_model.php on line 18, referer: http://ttips.embluemail.com/index.php/login
+[Wed Oct 23 15:27:04.755292 2019] [:error] [pid 87] [client 172.24.0.1:36944] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /var/www/html/application/models/Auth_model.php on line 18, referer: http://ttips.embluemail.com/index.php/login
+[Wed Oct 23 15:27:18.737831 2019] [:error] [pid 81] [client 172.24.0.1:36948] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /var/www/html/application/models/Auth_model.php on line 18, referer: http://ttips.embluemail.com/index.php/login
+[Wed Oct 23 15:27:35.327781 2019] [:error] [pid 75] [client 172.24.0.1:36956] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /var/www/html/application/models/Auth_model.php on line 18, referer: http://ttips.embluemail.com/index.php/login
+[Wed Oct 23 15:27:36.680566 2019] [:error] [pid 85] [client 172.24.0.1:36954] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /var/www/html/application/models/Auth_model.php on line 18, referer: http://ttips.embluemail.com/index.php/login
+[Wed Oct 23 15:27:52.050909 2019] [:error] [pid 88] [client 172.24.0.1:36966] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /var/www/html/application/models/Auth_model.php on line 18, referer: http://ttips.embluemail.com/index.php/login
+[Wed Oct 23 15:28:21.987485 2019] [:error] [pid 92] [client 172.24.0.1:36970] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /var/www/html/application/models/Auth_model.php on line 18, referer: http://ttips.embluemail.com/index.php/login
+[Wed Oct 23 15:28:39.161465 2019] [:error] [pid 91] [client 172.24.0.1:36980] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /var/www/html/application/models/Auth_model.php on line 18, referer: http://ttips.embluemail.com/index.php/login
+[Wed Oct 23 15:29:10.143039 2019] [:error] [pid 78] [client 172.24.0.1:36984] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /var/www/html/application/models/Auth_model.php on line 18, referer: http://ttips.embluemail.com/index.php/login
+[Wed Oct 23 15:29:41.747784 2019] [:error] [pid 88] [client 172.24.0.1:37000] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /var/www/html/application/models/Auth_model.php on line 18, referer: http://ttips.embluemail.com/index.php/login
+[Wed Oct 23 15:54:34.706401 2019] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down

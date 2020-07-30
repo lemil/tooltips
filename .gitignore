@@ -1,0 +1,4 @@
+**/env/ci-logs/*
+**/env/ci-cache/*
+**/env/logs/*
+**/env/www/application/upload/*

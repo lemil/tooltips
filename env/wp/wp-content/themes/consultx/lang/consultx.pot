@@ -1,0 +1,450 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: The Score\n"
+"POT-Creation-Date: 2019-06-17 13:55+0530\n"
+"PO-Revision-Date: 2019-03-24 04:27+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:16 404.php:20
+msgid "Page Not Found"
+msgstr ""
+
+#: 404.php:19 archive.php:19 category.php:19 extra/breadcrumbs.php:11
+#: index.php:19
+msgid "Home"
+msgstr ""
+
+#: 404.php:34
+msgid "404"
+msgstr ""
+
+#: 404.php:35
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:36
+msgid "Sorry, but the page you are looking for does not exist"
+msgstr ""
+
+#: 404.php:37
+msgid "Back To Home"
+msgstr ""
+
+#: comments.php:29
+msgctxt "comments title"
+msgid "Comments"
+msgid_plural "Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:38 comments.php:59
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:41 comments.php:62
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:42 comments.php:63
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:74
+msgid "Comments are closed."
+msgstr ""
+
+#: content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:26
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:32
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content-page.php:18 content-single.php:31 template-full-width.php:28
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: Name of current post
+#: content-page.php:30 extra/template-tags.php:81
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#. translators: %s: Name of current post.
+#: content-single.php:26
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: content-single.php:36
+msgid "Tags :"
+msgstr ""
+
+#: content.php:35
+msgid "By"
+msgstr ""
+
+#: content.php:38
+msgid "News Read More"
+msgstr ""
+
+#: content.php:39 header.php:425
+msgid "Read More"
+msgstr ""
+
+#: extra/custom-header.php:22
+msgid "fff"
+msgstr ""
+
+#: extra/customizer.php:36
+msgid "Theme Options Panel"
+msgstr ""
+
+#: extra/customizer.php:40
+msgid "#c1331b"
+msgstr ""
+
+#: extra/customizer.php:46
+msgid "Color Scheme"
+msgstr ""
+
+#: extra/customizer.php:47
+msgid "More color options in PRO Version"
+msgstr ""
+
+#: extra/customizer.php:60
+msgid "Hover Color Scheme"
+msgstr ""
+
+#: extra/customizer.php:68
+msgid "Header Contact info"
+msgstr ""
+
+#: extra/customizer.php:80
+msgid "Add phone number here"
+msgstr ""
+
+#: extra/customizer.php:92
+msgid "Add E-mail here"
+msgstr ""
+
+#: extra/customizer.php:104
+msgid "Add Office Hrs here"
+msgstr ""
+
+#: extra/customizer.php:117
+msgid "Add button name"
+msgstr ""
+
+#: extra/customizer.php:128
+msgid "Add Button link here"
+msgstr ""
+
+#: extra/customizer.php:134
+msgid "false"
+msgstr ""
+
+#: extra/customizer.php:142
+msgid "Check To show This Section"
+msgstr ""
+
+#: extra/customizer.php:155
+msgid "Check To show Breadcrumb Section"
+msgstr ""
+
+#: extra/customizer.php:161
+msgid "Slider Section"
+msgstr ""
+
+#: extra/customizer.php:163
+msgid "Default image size for slider is 1400 x 633 pixel."
+msgstr ""
+
+#: extra/customizer.php:168 extra/customizer.php:180 extra/customizer.php:192
+#: extra/customizer.php:250 extra/customizer.php:261 extra/customizer.php:272
+#: extra/customizer.php:283 extra/customizer.php:316 extra/customizer.php:361
+#: extra/customizer.php:372 extra/customizer.php:383 extra/customizer.php:394
+#: extra/customizer.php:405 extra/customizer.php:416 extra/customizer.php:462
+#: extra/customizer.php:473 extra/customizer.php:484 extra/customizer.php:495
+#: extra/customizer.php:506 extra/customizer.php:517
+msgid "0"
+msgstr ""
+
+#: extra/customizer.php:175
+msgid "Select page for slide one:"
+msgstr ""
+
+#: extra/customizer.php:187
+msgid "Select page for slide two:"
+msgstr ""
+
+#: extra/customizer.php:199
+msgid "Select page for slide three:"
+msgstr ""
+
+#: extra/customizer.php:210
+msgid "Add slider Read more button name here"
+msgstr ""
+
+#: extra/customizer.php:224 extra/customizer.php:303 extra/customizer.php:335
+#: extra/customizer.php:436 extra/customizer.php:537 extra/customizer.php:571
+msgid "Check To Show This Section"
+msgstr ""
+
+#: extra/customizer.php:231
+msgid "Our Service Section"
+msgstr ""
+
+#: extra/customizer.php:232
+msgid "Select pages from the dropdown for our service section"
+msgstr ""
+
+#: extra/customizer.php:244
+msgid "Add services title here"
+msgstr ""
+
+#: extra/customizer.php:309
+msgid "About Us Section"
+msgstr ""
+
+#: extra/customizer.php:310
+msgid "Select Pages from the dropdown for about us section"
+msgstr ""
+
+#: extra/customizer.php:342
+msgid "Current Projects Section"
+msgstr ""
+
+#: extra/customizer.php:343
+msgid "Select pages from the dropdown for current project section"
+msgstr ""
+
+#: extra/customizer.php:355
+msgid "Add Project title here"
+msgstr ""
+
+#: extra/customizer.php:443
+msgid "Our Partner Section"
+msgstr ""
+
+#: extra/customizer.php:444
+msgid "Select pages from the dropdown for our partner section"
+msgstr ""
+
+#: extra/customizer.php:456
+msgid "Add Client title here"
+msgstr ""
+
+#: extra/customizer.php:544
+msgid "Blog Section"
+msgstr ""
+
+#: extra/customizer.php:545
+msgid "Select Pages from the dropdown for blog section"
+msgstr ""
+
+#: extra/customizer.php:557
+msgid "Add Blog title here"
+msgstr ""
+
+#. translators: By post author tranlation.
+#: extra/template-tags.php:21
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: extra/template-tags.php:57 extra/template-tags.php:64
+msgid ", "
+msgstr ""
+
+#. translators: Posted in tranlation.
+#: extra/template-tags.php:60
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#. translators: Tagged tranlation.
+#: extra/template-tags.php:67
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. translators: %s: post title
+#: extra/template-tags.php:74
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: footer.php:24 header.php:65
+msgid "Office Hrs"
+msgstr ""
+
+#: footer.php:33 header.php:45
+msgid "Call Us"
+msgstr ""
+
+#: footer.php:42 header.php:55
+msgid "Email at"
+msgstr ""
+
+#: footer.php:83
+msgid "|"
+msgstr ""
+
+#: footer.php:84
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: footer.php:84
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: footer.php:84
+msgid "WordPress"
+msgstr ""
+
+#: functions.php:45
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:61
+msgid "ffffff"
+msgstr ""
+
+#: functions.php:158
+msgid "Main Sidebar"
+msgstr ""
+
+#: functions.php:160
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:168
+msgid "Footer Sidebar 1"
+msgstr ""
+
+#: functions.php:170
+msgid "Footer location 1"
+msgstr ""
+
+#: functions.php:178
+msgid "Footer Sidebar 2"
+msgstr ""
+
+#: functions.php:180
+msgid "Footer location 2"
+msgstr ""
+
+#: functions.php:188
+msgid "Footer Sidebar 3"
+msgstr ""
+
+#: functions.php:190
+msgid "Footer location 3"
+msgstr ""
+
+#: header.php:30
+msgid "Loading ..."
+msgstr ""
+
+#: header.php:91
+msgid "Toggle navigation"
+msgstr ""
+
+#: header.php:141
+msgid "Add a menu"
+msgstr ""
+
+#: header.php:223
+msgid "Prev"
+msgstr ""
+
+#: header.php:227
+msgid "Next"
+msgstr ""
+
+#: header.php:346
+msgid "project Link"
+msgstr ""
+
+#: header.php:350
+msgid "project Title"
+msgstr ""
+
+#: header.php:415
+msgid "News Title"
+msgstr ""
+
+#: index.php:59
+msgid "&laquo;"
+msgstr ""
+
+#: index.php:60
+msgid "&raquo;"
+msgstr ""
+
+#. translators: %s: search term
+#: search.php:19
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#. translators: %s: nothing found term
+#: search.php:26
+#, php-format
+msgid "Nothing Found for: %s"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "consultx"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://github.com/rozertheme/consultx-theme"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"ConsultX is free WordPress theme. It can be use for any type of firm or a "
+"company."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "rozerben"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://profiles.wordpress.org/rozerben/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full Width Page"
+msgstr ""
